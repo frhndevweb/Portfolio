@@ -7,7 +7,7 @@ export const Projects = [
     demo: '#',
     sourceCode: 'https://github.com/euxzy/sgcid',
     description:
-      'SGCID adalah .',
+      'SGCID just a landing page 😁.',
   },
   {
     id: 2,
@@ -17,20 +17,10 @@ export const Projects = [
     demo: 'https://ceritain.vercel.app',
     sourceCode: 'https://github.com/euxzy/ceritain',
     description:
-      'Ceritain adalah sebuah website dimana kita bisa menceritakan semua hal yang ingin kita ceritakan. (Project ini masih dalam tahap development namun sudah bisa dipakai)',
+      'A social media application developed with Nuxt.js (Vue), TailwindCSS, and Hapi.js, allowing users to create and share stories with others.',
   },
   {
     id: 3,
-    name: 'API Ceritain',
-    slug: 'api-ceritain',
-    img: 'api-ceritain',
-    demo: '#',
-    sourceCode: 'https://github.com/euxzy/api-ceritain',
-    description:
-      'API Ceritain adalah API yang digunakan di website Ceritain.',
-  },
-  {
-    id: 4,
     name: 'Weather App',
     slug: 'weather-app',
     img: 'weather-app',
@@ -40,7 +30,7 @@ export const Projects = [
       'Weather App adalah sebuah website untuk melihat berapa suhu pada kota tertentu.',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Bank Metrics',
     slug: 'metrics',
     img: 'metrics',
@@ -50,7 +40,27 @@ export const Projects = [
       'Bank Metrics adalah sebuah aplikasi yang bisa digunakan untuk mengecek apakah pengajuan pinjaman kita disetujui atau tidak oleh bank yang terdaftar di aplikasi ini.',
   },
   {
+    id: 5,
+    name: 'Wiseline Indonesia',
+    slug: 'wiseline',
+    img: 'wiseline',
+    demo: 'https://wiseline.id',
+    sourceCode: '#',
+    description:
+      'A blogging platform similar to medium and dev.to, allowing users to publish and share their writings, developed with Remix.js (Updated to React Router v7), TailwindCSS, and Nest JS.',
+  },
+  {
     id: 6,
+    name: 'Pycon Indonesia 2025',
+    slug: 'pycon-2025',
+    img: 'pycon-2025',
+    demo: 'https://2025.pycon.id',
+    sourceCode: '#',
+    description:
+      'A conference website for PyCon Indonesia, developed collaboratively to provide event information, schedules, and announcements, with contributions focused on feature development and UI improvements',
+  },
+  {
+    id: 7,
     name: 'Coming Soon Project',
     slug: 'coming-soon-project',
     img: 'coming-soon',
